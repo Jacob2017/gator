@@ -35,6 +35,8 @@ func main() {
 	// Register
 	cmds.register("login", handlerLogin)
 	cmds.register("register", handlerRegister)
+	cmds.register("reset", handlerReset)
+	cmds.register("users", handlerUsers)
 
 	fmt.Println(os.Args)
 	fmt.Println(len(os.Args))
